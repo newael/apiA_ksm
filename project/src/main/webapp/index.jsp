@@ -56,7 +56,7 @@ $(function(){
  }); */
 </script>
 <<<<<<< HEAD
-<title>메인페이지 입니까???zzzz</title>
+<title>메인페이지 입니까???zzzzqqq</title>
 =======
 <title>메인페이지</title>
 >>>>>>> branch 'master' of https://github.com/newael/apiA_ksm.git
