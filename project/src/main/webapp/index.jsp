@@ -55,7 +55,11 @@ $(function(){
     });
  }); */
 </script>
-<title>메인페이지 입니까???</title>
+<<<<<<< HEAD
+<title>메인페이지 입니까???zzzz</title>
+=======
+<title>메인페이지</title>
+>>>>>>> branch 'master' of https://github.com/newael/apiA_ksm.git
 
 <link rel="stylesheet"  href="${pageContext.request.contextPath}/css/basic.css">
 
