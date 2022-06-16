@@ -55,7 +55,7 @@ $(function(){
     });
  }); */
 </script>
-<title>메인페이지1111</title>
+<title>메인페이지11112222</title>
 
 <link rel="stylesheet"  href="${pageContext.request.contextPath}/css/basic.css">
 
