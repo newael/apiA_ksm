@@ -1,0 +1,186 @@
+@charset "utf-8";
+
+html, body {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	text-align:center;
+}
+
+.clear {
+	clear: both;
+}
+/* 구역 설정 */
+#header {
+	width: 100%;
+	height: 10%;
+	bottom: solid 6px #393E46;
+	/* 	background-color:#393E46; */
+	color:white;
+	clear:both;
+	padding: 0px 0px 0px 0px;
+	margin:0px 0px;
+	background-image:url('../images/menu_background-img.jpg');
+	background-size: 100% 100%;
+}
+#menu {
+	width: 1600px;
+	height: 13%;
+	color:white;
+	position:top;
+	clear:both;
+	background-image:url('../images/banner_background-img.jpg'); 
+	background-size: 100% 100%;
+	padding: 0px 0px 0px 0px;
+	margin:0px 0px;
+}
+
+#aside {
+	width: 19%;
+	height: 68%;
+	float: right;
+	background-color: #363636;
+	color:white;
+	clear: both;
+}
+
+#aside2 {
+	width: 18%;
+	height: 68%;
+	float: left;
+	border: solid 2px #000000;
+	background-color: #363636;
+	color:white;
+
+	background-image:url('../images/banner2.png'); 
+	background-size: 100% 100%;
+}
+
+
+
+#nav {
+	height: 150px;
+	margin-bottom: 50px;
+	margin: 2px;
+	border: solid 1px #000000;
+	background-color: #363636;
+	color:white;
+}
+
+#main {
+	width: 61%;
+	height: 68%;
+	float: left;
+	margin: 2px;
+	background-color: #363636;
+	color:white;
+}
+
+#section {
+	width: 99%;
+	height: 98%;
+	margin: 2px;
+	border: solid 1px #000000;
+	background-color: #363636;
+	color:white;
+}
+
+#footer {
+	width: 100%;
+	height: 10%;
+	margin: 2px;
+	border: solid 1px #000000;
+	background-color: #363636;
+	color:white;
+}
+
+/* 구역설정 끝 */
+
+/* id 구간 */
+#footer_ {
+	text-align: center;
+}
+
+/* #logo {
+	margin-left: 300px;
+	float: left;
+} */
+
+#game2 {
+	width: 80%;
+	height: 80%;
+}
+
+
+
+#div_bottom{
+	position:bottom;
+}
+/* id 끝@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+
+/* 태그 구간 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+ul {
+	text-align: center;
+	padding: 0px 0px 10px 0px;
+	margin : 0px 0px;
+	/* margin-left: auto;
+	margin-right: auto; */
+}
+
+ul li {
+	display: inline-block;
+	list-style-type: none; 
+	padding: 0px 30px 0px 0px;
+	/* padding 의 순서는 상 우 하 좌 이다. */
+}
+ul li a {
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+}
+
+a{
+	text-decoration-line: none;
+}
+
+a:link{
+	color : white;	
+}
+
+a:visited{
+	/* color : gray;*/ /* 게시판에서는 회색 */
+	color : white; /* 메인만 흰색 */
+}
+
+table {
+	border-collapse: collapse;
+}
+p{
+	margin:0px 0px 0px 0px;
+}
+
+
+/* 태그구간 끝 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+/* class 구간  */
+.table {
+	/* background-color:black; */
+	width: 100%;
+	height: 100%;
+	table-layout:fixed; 
+	word-break:break-all; /* 글자가 테이블의 크기를 초과시 잘리는걸 다음줄로 줄바꿈해줌 */
+	height:auto;  /*  */
+}
+
+.table2 {
+	width: 50%;
+	height: 50%;
+}
+.td{
+	border-left: none; 
+	border-right: none; 
+	width:100%;
+	height:35px;
+	text-align:center;
+}
+/* class 구간 끝 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */

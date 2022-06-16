@@ -1,0 +1,235 @@
+@charset "utf-8";
+
+html, body {
+	width: 100%;
+	height: 100vh;
+	background-color: black;
+	text-align:center;
+}
+
+.clear {
+	clear: both;
+}
+/* 구역 설정 */
+#header {
+	width: 100%;
+	height: 10%;
+	bottom: solid 6px #393E46;
+	/* 	background-color:#393E46; */
+	color:white;
+	clear:both;
+	padding: 0px 0px 0px 0px;
+	margin:0px 0px;
+	background-image:url('../images/menu_background-img.jpg');
+	background-size: 100% 100%;
+}
+#menu {
+	width: 100%;
+	height: 13%;
+	color:white;
+	position:top;
+	clear:both;
+	background-image:url('../images/banner_background-img.jpg'); 
+	background-size: 100% 100%;
+	padding: 0px 0px 0px 0px;
+	margin:0px 0px;
+	text-align:center;
+}
+
+#aside {
+	width: 19%;
+	height: 68%;
+	float: right;
+	background-color: #363636;
+	color:white;
+	clear: both;
+}
+
+#aside2 {
+	width: 18%;
+	height: 68%;
+	float: left;
+	border: solid 2px #000000;
+	background-color: #363636;
+	color:white;
+
+	background-image:url('../images/banner2.png'); 
+	background-size: 100% 100%;
+}
+
+
+
+#nav {
+	height: 150px;
+	margin-bottom: 50px;
+	margin: 2px;
+	border: solid 1px #000000;
+	background-color: #363636;
+	color:white;
+}
+
+#main {
+	width: 61%;
+	height: auto;
+	max-height:auto;
+	float: left;
+	margin: 2px;
+	background-color: #363636;
+	color:white;
+	/* overflow:auto; */
+}
+
+/* #section {
+	width: 99%;
+	height: 98vh;
+	margin: 2px;
+	border: solid 1px #000000;
+	background-color: #363636;
+	color:white;
+	
+} */
+
+#footer {
+	width: 100%;
+	height: 10%;
+	margin: 2px;
+	border: solid 1px #000000;
+	background-color: #363636;
+	color:white;
+	clear:both;
+	float:bottom;
+ 	bottom: 0; /* 하단에 여백 없이 */
+
+}
+
+
+/* 구역설정 끝 */
+
+/* id 구간 */
+#footer_logo{
+	text-align: center;
+}
+
+/* #logo {
+	margin-left: 300px;
+	float: left;
+} */
+
+#game2 {
+	width: 80%;
+	height: 80%;
+}
+
+
+#menu2{
+	
+	/* background: #ff9900; */
+}
+
+#div_bottom{
+	position:bottom;
+}
+#youtube_area{
+		/* width:98%; */
+		height:350px;
+		text-align:center;
+		display: inline-block; 
+		 display:flex; 
+		list-style-type: none; 
+		padding: 0px 0px 0px 0px;
+		overflow: auto;
+		overflow: scroll hidden;
+		/* border-top:1px;
+		border-right:1px;
+		border-left:1px;
+		border-bottom:1px; */
+		border-style:solid;
+}	
+
+#ul_youtube{
+	width:300px;
+	height:250px;
+	background-color:#363636;
+	color:black;
+/* 	line-height: auto; */
+}
+/* #margin {
+	margin: 0px 0px 0px 20px;
+} */
+
+
+
+/* id 끝@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+
+/* 태그 구간 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+ul {
+	text-align: center;
+	padding: 0px 10px 0px 10px;
+	margin : 0px 0px;
+	/* margin-left: auto;
+	margin-right: auto; */
+}
+
+#header #ul{
+	padding: 0px 20px 0px 0px;
+}
+
+div ul li {
+	display: inline-block;
+	list-style-type: none; 
+	
+	/* padding 의 순서는 상 우 하 좌 이다. */
+}
+ul li a {
+}
+
+a{
+	text-decoration-line: none;
+}
+
+a:link{
+	color : white;	
+}
+
+a:visited{
+	/* color : gray;*/ /* 게시판에서는 회색 */
+	color : white; /* 메인만 흰색 */
+}
+
+table {
+	border-collapse: collapse;
+}
+p{
+	margin:0px 0px 0px 0px;
+}
+
+iframe{
+	frameborder-style:solid;
+	frameborder-color:brown;
+}
+/* 태그구간 끝 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+/* class 구간  */
+.table {
+	/* background-color:black; */
+	width: 100%;
+	height: 100%;
+	table-layout:fixed; 
+	word-break:break-all; /* 글자가 테이블의 크기를 초과시 잘리는걸 다음줄로 줄바꿈해줌 */
+	height:auto;  /*  */
+	position:fixed;
+	overflow:hidden;
+}
+
+.table2 {
+	width: 50%;
+	height: 50%;
+	table-layout:fixed; 
+}
+.td{
+	border-left: none; 
+	border-right: none; 
+	text-align:center;
+}
+/* class 구간 끝 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
